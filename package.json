@@ -1,0 +1,22 @@
+{
+	"name": "three-template",
+	"version": "1.0.0",
+	"description": "Framework to build visual-oriented websites allowing 3D and 2D animations. Meant to speed up frontend development, take care of the repetitive setup and make it easy and enjoyable to display animations and graphics.",
+	"main": "vite.config.js",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"vite": "^6.0.1",
+		"vite-plugin-glsl": "^1.3.1",
+		"vite-plugin-restart": "^0.4.2"
+	},
+	"dependencies": {
+		"lil-gui": "^0.20.0",
+		"three": "^0.171.0"
+	}
+}
